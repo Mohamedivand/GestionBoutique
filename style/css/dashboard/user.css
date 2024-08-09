@@ -1,0 +1,11 @@
+
+.dash-content .boxes .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    width: calc(100% / 4 - 15px);
+    padding: 15px 150px;
+    background-color: var(--box1-color);
+    transition: var(--tran-05);
+}

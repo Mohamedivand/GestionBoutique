@@ -1,0 +1,1 @@
+On met les images de banderole de pdf des boutiques

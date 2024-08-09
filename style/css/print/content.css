@@ -1,0 +1,123 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-bottom: 2px solid; 
+    padding-bottom: 10px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contactZone{
+    display: flex; 
+    align-items: center;
+    gap: 30px; 
+    background: black; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 10px;
+}
+.contactZone a{
+    color: white;
+}
+table{
+    width: 80%; 
+    min-width: 400px; 
+    font-size: 16px; 
+    border-collapse: collapse; 
+    text-align: center; 
+    border: 1px solid; 
+    border-radius: 15px 15px 0 0; 
+    overflow: hidden; 
+    padding: 20px;
+}
+thead{
+    background: black; 
+    color: white; 
+    padding: 5px; 
+    height: 30px;
+}
+tbody tr{
+    border-bottom: 1px solid black; 
+}
+
+.signature{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.downloadZone{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.downloadZone button{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    gap: 10px;
+    padding-right: 50px;
+    cursor: pointer;
+    transition: all ease-in .1s;
+
+}
+.downloadZone button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 10px grey;
+    background: white;
+    color: black;
+    border: 5px solid black;
+}
+.downloadZone button:hover .downloadIcone{
+    background: black;
+    color: white;
+}
+.downloadIcone{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: white;
+    border-radius: 50%;
+}
+.infoZone{
+    padding: 100px 10%;
+}
+
+
+#printTable{
+    width: 18cm;
+    /* height: 26.7cm; */
+}
+
+tbody .tableBr{
+    /* min-height: 10.7cm;
+    max-height: 10.7cm; */
+    height: 10.5cm;
+    border: none;
+    font-size: 150px;
+    color: rgb(212, 212, 212);
+    display: block;
+}

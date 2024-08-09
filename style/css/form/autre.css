@@ -1,0 +1,89 @@
+.container {
+    max-width: 1124px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+ 
+
+input[type=text], input[type=file], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+a{
+  text-decoration: none;
+}
+input[type=button]{
+    background-color: #e46666;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 280px;
+    float: inline-end;
+  }
+
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit], input[type=button] {
+      width: 100%;
+      margin-top: 0;
+    }
+    input[type=button] {
+      margin-top: 5px;
+      margin-left: auto;
+    }
+  }
+
+
+  @media (max-width: 575px) {
+    .container {
+      margin-top: auto;
+    }
+  }
+
+  

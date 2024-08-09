@@ -1,0 +1,1 @@
+On met les images de tampon des boutiques

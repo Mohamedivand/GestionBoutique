@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 400;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background: linear-gradient(
+    60deg,
+    rgba(255, 101, 101, 0.568),
+    rgba(255, 183, 49, 0.596)
+  );
+  padding: 10px;
+}
+div#container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.sec_form {
+  border-radius: 15px;
+
+  margin: 17px 0 0 0;
+  width: 95%;
+  max-width: 540px;
+  min-width: 250px;
+  padding: 40px 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+div.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div.title h1 {
+  font-size: 1.5em;
+  font-family: FredokaOne-Regular;
+}
+
+div.title img {
+  width: 70px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label[for] {
+  color: #5a5a5a;
+  font-weight: 600;
+  margin: 18px 0 5px 0;
+  width: 83%;
+  font-size: 18px;
+}
+
+input.inp_text,
+textarea.inp_textArea {
+  width: 80%;
+  padding: 12px;
+  background-color: #e8e8e8b2;
+  font-size: 18px;
+  outline: none;
+  transition: 250ms ease-in-out all;
+  border-radius: 10px;
+}
+
+input.inp_text,
+textarea.inp_textArea:focus {
+  border-bottom:2px solid rgba(120, 52, 255, 0.849);
+}
+textarea.inp_textArea:focus {
+  border-bottom: 5px solid #5f27cd;
+}
+
+div.options_form {
+  width: 83%;
+  margin: 4vh 0 0 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+form button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 13px;
+  background: rgb(255, 93, 93);
+  border-radius: 7px;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+  width: 45%;
+}
+form button:nth-child(1) {
+  background: #1648a5;
+}
+form button:nth-child(1):hover {
+  color: #1648a5;
+  border-color: #1648a5;
+}
+form button:hover {
+  background: white;
+  color: rgb(255, 93, 93);
+  border-color: rgb(255, 93, 93);
+  transform: scale(1.1);
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 7px 0 0;
+}
+
+div.submit_form {
+  width: 83%;
+  margin: 7vh 0 0 0;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 13px 40px;
+  color: #fff;
+  background-color: #1648a5;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #3763b6;
+}
+::placeholder {
+  color: rgb(1, 141, 255);
+  font-size: 0.7em;
+}
+
+.image-class {
+  margin: 10px;
+  font-size: 50px;
+  padding: 13px 23px;
+  color: #fff;
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.inp_image {
+  display: none;
+}
+
+textarea.inp_textArea:focus {
+  min-width: 230px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  transition: all ease-in 0.1s;
+  font-size: 18px;
+}
+textarea.input_zone textarea {
+  height: 100px;
+}
+input.input:focus,
+textarea.textarea:focus {
+  background: transparent;
+  border-bottom: 1px solid red;
+}
+.select-class {
+  padding: 10px;
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+/*''''''''''''''''''''''''''''''''''''''''''''''''''''*/
+.selectdiv {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  float: left;
+  min-width: 300px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.selectdiv:after {
+  content: "<>";
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  /*Adjust for position however you want*/
+
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #999;
+  /*left line */
+
+  position: absolute;
+  pointer-events: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.imageSliderZone{
+  border: 2px solid rgb(231, 92, 92);
+  width: 80%;
+  padding: 10px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+}
+
+.imageSliderZone::-webkit-scrollbar{
+  display: none;
+}
+
+.imageSliderZone .productImagesZone{
+  width: 100px;
+  min-width: 100px;
+  height: calc( 100% - 20px);
+  margin-right: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  border: 2px solid rgb(6, 73, 196);
+  transition: all ease .1s;
+  cursor: not-allowed;
+}
+
+.imageSliderZone .productImagesZone:hover{
+  transform: scale(1.2);
+}
+
+.imageSliderZone .deleteImg{
+  position: absolute;
+  right: 0;
+  padding: 5px;
+  border-radius: 50%;
+  color: grey;
+}

@@ -1,0 +1,197 @@
+#dateZone{
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(167, 205, 255);
+    padding: 5px 10px;
+}
+#date{
+    font-size: 16px;
+    font-weight: 600;
+    width: fit-content;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+.btnAjouter{
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgba(61,131,97,1);
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+.btnAjouter a{
+    color: white;
+    text-decoration: none;
+}
+.zonePayement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.zonePayement input{
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+.zonePayement button{
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #66BB6A;
+    font-size: 20px;
+}
+.btnValider,.stockBtn,.boutiqueBtn{
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #66BB6A;
+    font-size: 20px;
+}
+.updateCommande{
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #66BB6A;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.btnPrint{
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #66BB6A;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.validateZone, .printZone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendZone a{
+    font-size: 23px;
+}
+.sendZone a:nth-child(1){
+    color: #66BB6A;
+}
+.sendZone a:nth-child(2){
+    color: #f2a60c	;
+}
+
+.inputZone{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.inputs input,select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.inputs select{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    font-size: 20px;
+}
+.historiqueZone{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: rgba( 155, 155, 155, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.histTitle{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.historiqueZoneInactive{
+    display: none;
+}
+.closeHisto{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.validerCommande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stockZone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boutiqueBtn{
+    margin: auto;
+}
+
+.voirPlus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.voirPlus button{
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid #66BB6A;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #66BB6A;
+    border-radius: 7px;
+}

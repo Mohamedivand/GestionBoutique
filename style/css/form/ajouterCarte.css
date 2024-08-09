@@ -1,0 +1,69 @@
+
+.historiqueZone{
+  background: none !important;
+}
+
+.historiqueZone .container {
+  position: relative;
+  background-image: linear-gradient( 109.6deg, rgba(117,162,61,1) 11.3%, rgba(33,103,43,1) 91.1%);
+  background-size: cover;
+  padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.historiqueZone header,
+.historiqueZone .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.historiqueZone .logo img {
+  width: 48px;
+  margin-right: 10px;
+}
+.historiqueZone h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.historiqueZone header .chip {
+  width: 60px;
+}
+.historiqueZone h6 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.historiqueZone .number {
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+}
+
+.historiqueZone .number:focus{
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.historiqueZone .container .card-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btnEnvoyer{
+  width: fit-content;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid white;
+  background: green;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}

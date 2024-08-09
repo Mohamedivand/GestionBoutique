@@ -1,0 +1,57 @@
+.toolBarZone * {
+    margin: 0;
+    padding: 0;
+}
+.toolBarZone{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.toolBarZone .toolBarCloser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background: green;
+    border-radius: 10px;
+    color: white;
+    transition: all ease-in .2s;
+    cursor: pointer;
+}
+
+.toolBar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(100, 100, 100, 0.267);
+}
+
+.toolBar > a{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 15px;
+    background: green;
+    color: white !important;
+    text-decoration: none;
+}
+
+.toolBarIcone{
+    font-size: 25px;
+}

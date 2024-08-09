@@ -1,0 +1,57 @@
+
+
+#dateZone{
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(167, 205, 255);
+    padding: 5px 10px;
+}
+#date{
+    font-size: 16px;
+    font-weight: 600;
+    width: fit-content;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+.total{
+    background-color: rgb(111, 224, 190);
+}
+.totalLigne{
+    font-size: 20px !important;
+    font-weight: 600;
+    color: black
+}
+.statZone{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.statZone .graphe{
+    width: 40%;
+    /* border: 2px solid black; */
+}
+
+.statZone .table2{
+    width: 55%;
+    /* border: 2px solid black; */
+    overflow: scroll;
+    height: 300px;
+}
+.statZone .table2 .top{
+    position: fixed;
+}
+.statZone > *{
+    min-width: 350px;
+    /* border: 2px solid black; */
+}
+
+.statZone .graphe2,.graphe3{
+    width: 40%;
+    /* border: 2px solid black; */
+}

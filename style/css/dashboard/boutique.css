@@ -1,0 +1,262 @@
+.table-data{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
+    margin-top: 24px;
+    width: 100%;
+    color: black;
+}
+
+.table-data .head {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+
+.table-data thead *, .table-data tbody *{
+    padding: 5px 10px;
+}
+
+.table-data .head i {
+    cursor: pointer;
+}
+
+.table-data {
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+.table-data table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-data table th {
+    padding-bottom: 12px;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid red;
+    font-weight: bold;
+    
+    text-align: center;
+}
+.table-data table td {
+    /* padding: 16px 0; */
+    font-size: 14px;
+    font-weight: bold;
+}
+.table-data table tr td:first-child {
+    grid-gap: 12px;
+    padding-left: 6px;
+}
+.table-data table td img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.table-data table td img:hover{
+    transform: scale(2);
+}
+.table-data table tr{
+    text-align: center;
+}
+.table-data table tbody tr:hover {
+    background: grey;
+    color: white;
+    cursor: pointer;
+}
+.btnZone{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.btnZone a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border: 1px solid white;
+    background: rgba(61,131,97,1);
+    width: fit-content;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.row{
+    gap: 110px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    min-width: 300px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+.l-bg-cherry {
+    background-image: linear-gradient( 1.4deg,  rgba(139,166,246,1) 3.5%, rgba(168,240,248,1) 96.6% ) !important;
+    color: #fff;
+}
+
+.l-bg-blue-dark {
+    background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% ) !important;
+    color: #fff;
+}
+
+.l-bg-green-dark {
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%) !important;
+    color: #fff;
+}
+
+.l-bg-orange-dark {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%) !important;
+    color: #fff;
+}
+.l-blue-dark {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% ) !important;
+    color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+    font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+    text-align: center;
+    line-height: 50px;
+    /* margin-left: 10px; */
+    color: #000;
+    position: absolute;
+    right: -0.5px;
+    top: 20px;
+    opacity: 0.1;
+    margin-right: 5px;
+}
+
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}
+
+.l-bg-green {
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+    color: #fff;
+}
+
+.l-bg-orange {
+    background: linear-gradient(to right, #f9900e, #ffba56) !important;
+    color: #fff;
+}
+
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}
+
+.creditZone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .containerCard {
+    position: relative;
+    /* background-image: url("../../../res/images/creditCard1.png"); */
+    background-image: linear-gradient( 109.6deg, rgba(117,162,61,1) 11.3%, rgba(33,103,43,1) 91.1%);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    /* border: 5px solid #1a8556; */
+  }
+  .containerCard  header,
+  .containerCard  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .containerCard  .logo img {
+    width: 48px;
+    margin-right: 10px;
+  }
+  .containerCard  h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .containerCard  header .chip {
+    width: 60px;
+  }
+  .containerCard  h6 {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .containerCard  h5.number {
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .containerCard  h5.montant {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .containerCard  .container .card-details {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  @keyframes pulse {
+    from{
+        box-shadow: 0 0 0 0 rgba(3,149,229,.4)
+    }
+    to{
+        box-shadow: 0 0 0 15px rgba(3,149,229,0)
+    }
+  }
+
+  .gererBtn{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    padding: 7px;
+    background: #1a8556;
+    border: 1px solid #1a8556;
+    color: white;
+    border-radius: 7px;
+  }
+  .abonnementZone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .abonnementZone a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    padding: 7px;
+    background: rgba(3,149,229,.4) ;
+    border: 1px solid rgba(3,149,229,.4);
+    color: white;
+    border-radius: 7px;
+  }
+  .abonnementZone a:nth-child(2){
+    background: red;
+    border: 1px solid red;
+  }
